@@ -1,0 +1,98 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+nav li {
+ display: inline-block;
+}
+
+nav {
+ background-color: orange ;
+ position: fixed;
+ width: 100%;
+ top: 0;
+}
+
+nav li a { 
+ line-height: 50px;
+ text-decoration: none;
+ color: #999;
+ font-family: sans-serif;
+ font-size: 11px;
+ text-transform: uppercase;
+ font-weight: bold;
+ padding: 0 18px;
+}
+
+nav ul {
+ margin: 0;
+ text-align: center;
+}
+
+.col-1 {
+  float: left;
+  width: 8.33333333%;
+}
+
+.col-2 {
+	float: left;
+	width:16.66%;
+}
+.col-3 {
+	float: left;
+	width:25%;
+}
+.col-4 {
+	float: left;
+	width:33.33%;
+}
+.col-5 {
+	float: left;
+	width:41.67%;
+}
+
+.col-6 {
+	float: left;
+	width:50%;
+}
+
+.col-7 {
+	float: left;
+	width:58.33%;
+}
+
+.col-8 {
+	float: left;
+	width:66.67%;
+}
+
+.col-9{
+	float: left;
+	width:75%;
+}
+.col-10 {
+	float: left;
+	width:83.34%;
+}
+.col-11 {
+	float: left;
+	width:91.66%;
+}
+.col-12 {
+	float: left;
+	width:100%;
+}
+
+.row:before {
+  display: table;
+  content: "";
+}
+
+.row:after {
+  display: table;
+  content: "";
+  clear: both;
+} 
+
